@@ -38,6 +38,6 @@ EOF
 6- go to longhorn-ui then setting:
 ```
 
-![image](https://github.com/IMAN-NAMJOOYAN/longhorn-backup/assets/16554389/f3abbd79-2dbc-4a84-872b-2b1dad2926a5)
+![image](https://github.com/IMAN-NAMJOOYAN/longhorn-backup/assets/16554389/69433db0-e780-4324-af43-3462600bc27f)
 
 
