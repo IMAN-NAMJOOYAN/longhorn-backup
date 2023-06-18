@@ -18,5 +18,22 @@
   echo -n <Your SecretKey> | base64
   echo -n <Your Endpoint> | base64
   # Exapmle for endpoint: echo -n http://192.168.1.8:9000 | base64
-
+  
+ #-------------------------------------------
+cat <<EOF> minio-secret.yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: minio-secret
+  namespace: longhorn
+type: Opaque
+data:
+  AWS_ACCESS_KEY_ID: <Your AccessKey Base64>
+  AWS_SECRET_ACCESS_KEY: <Your SecretKey Base64>
+  AWS_ENDPOINTS: <Your Endpoint Base64>
+  #AWS_CERT: your base64 encoded custom CA certificate goes here
+EOF
+#--------------------------------------------
+5- kubectl apply -f minio-secret.yaml
+6- 
 ```
