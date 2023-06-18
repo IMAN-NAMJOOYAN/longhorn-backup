@@ -35,5 +35,8 @@ data:
 EOF
 #--------------------------------------------
 5- kubectl apply -f minio-secret.yaml
-6- 
+6- go to longhorn-ui then setting:
+![image](https://github.com/IMAN-NAMJOOYAN/longhorn-backup/assets/16554389/d3d02161-35c8-449b-9bf1-b231de187dc9)
+
 ```
+
